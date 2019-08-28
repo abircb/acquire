@@ -1,20 +1,20 @@
 {
   "name": "acquire",
   "version": "1.0.0",
-  "description": "Node's require function on steroids",
+  "description": "Node.js' require function on steroids",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": >=8.00
+    "node": ">=8.00"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/abircb/acquire.git"
   },
   "author": "The Random DevTools Project",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/abircb/acquire/issues"
   },
