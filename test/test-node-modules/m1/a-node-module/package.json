@@ -1,0 +1,4 @@
+{
+  "name": "a-node-module",
+  "main": "lib/some-main-file.js"
+}

@@ -1,3 +1,4 @@
 {
+  "name": "another-module",
   "main": "lib/some-main-file.js"
 }
