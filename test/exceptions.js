@@ -1,4 +1,3 @@
-const assert = require('assert')
 const should = require('should')
 const acquire = require('../')
 
@@ -16,7 +15,6 @@ describe('unknown request throws', function () {
   it('throws an error', function () {
     try {
       acquire('./test-node-modules/broken-module.js')
-      assert.fail('expected exception not thrown')
     } catch (e) {
       e.code.should.be.exactly('MODULE_NOT_FOUND')
     }
