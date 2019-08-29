@@ -4,7 +4,7 @@
   "description": "Node.js' require function on steroids",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "engines": {
     "node": ">=8.00"
@@ -21,5 +21,9 @@
   "dependencies": {
     "array-back": "^3.1.0"
   },
-  "homepage": "https://github.com/abircb/acquire#readme"
+  "homepage": "https://github.com/abircb/acquire#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3"
+  }
 }
