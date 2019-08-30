@@ -1,13 +1,13 @@
 {
-  "name": "acquire",
+  "name": "acquire-module",
   "version": "1.0.0",
   "description": "Node.js' require function on steroids",
-  "repository": "https://github.com/abircb/acquire.git",
+  "repository": "https://github.com/abircb/acquire-module.git",
   "main": "index.js",
   "keywords": [
     "module",
     "acquire",
-    "load-module",
+    "load-module"
   ],
   "scripts": {
     "test": "mocha"
@@ -18,12 +18,12 @@
   "author": "The Random DevTools Project",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abircb/acquire/issues"
+    "url": "https://github.com/abircb/acquire-module/issues"
   },
   "dependencies": {
     "array-back": "^3.1.0"
   },
-  "homepage": "https://github.com/abircb/acquire#readme",
+  "homepage": "https://github.com/abircb/acquire-module#readme",
   "devDependencies": {
     "mocha": "^6.2.0",
     "should": "^13.2.3"
