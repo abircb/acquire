@@ -8,6 +8,12 @@
 # acquire-module
 Node.js' `require` function on steroids
 
+## Installation
+
+```cli
+$ npm install acquire-module -g
+```
+
 ## Features
 <ul>
   <li>Search for a module in multiple directories</li>
