@@ -1,6 +1,7 @@
 /**
  * Node.js' `require` function on steroids:
- * - Ability to search for a module in multiple paths
+ * - Ability to search for a module in multiple directories
+ * - Ability to search using both absolute and relative paths
  * - Ability to search using a prefix
  * @module acquire
  */

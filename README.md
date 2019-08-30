@@ -33,12 +33,12 @@ const acquire = require('acquire-module')
 • returns a `module` Object
 
 ## Examples
-``` node.js
+``` js
 > const inquirer = acquire('inquirer')
-> var _ = acquire('/core', { prefix: 'lodash' }) 
-> const myModule = acquire('some-file.js', { paths: '.' }) 
-> const anotherModule = acquire('file.js', {paths: './some/place/where/file/exists', prefix: 'some' }) 
+> var _ = acquire('/core', { prefix: 'lodash' })
+> const myModule = acquire('some-file.js', { paths: '.' })
+> const anotherModule = acquire('file.js', {paths: './some/place/where/file/exists', prefix: 'some' })
 > const nextModule = acquire('app.js', { paths: [ '.', '~/my-modules' ] })
-> const doesSomething = acquire('something.js', { paths: [ './some/place/unsure/where/file/is', '~/my-modules' , '.'] })
+> const doesSomething = acquire('something.js', { paths: [ 'some/place/unsure/where/file/is', '~/my-modules' , '.'] })
 
 ```
