@@ -1,7 +1,9 @@
+[![npm version](https://badge.fury.io/js/acquire-module.svg)](https://badge.fury.io/js/acquire-module)
 [![build status](https://travis-ci.org/abircb/acquire-module.svg?branch=master)](https://travis-ci.org/abircb/acquire-module)
 [![dependencies status](https://david-dm.org/abircb/acquire/status.svg)](https://david-dm.org/abircb/acquire-module)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![badgen.net](https://badgen.net/badge/libraries/io/blue)](https://libraries.io/github/abircb/acquire-module)
+![license](https://img.shields.io/npm/l/acquire-module)
 
 # acquire-module
 Node.js' `require` function on steroids
@@ -42,3 +44,4 @@ const acquire = require('acquire-module')
 > const doesSomething = acquire('something.js', { paths: [ 'some/place/unsure/where/file/is', '~/my-modules' , '.'] })
 
 ```
+
