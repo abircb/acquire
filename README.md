@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/acquire-module.svg)](https://badge.fury.io/js/acquire-module)
+![npm downloads](https://img.shields.io/npm/dw/acquire-module)
 [![build status](https://travis-ci.org/abircb/acquire-module.svg?branch=master)](https://travis-ci.org/abircb/acquire-module)
 [![dependencies status](https://david-dm.org/abircb/acquire/status.svg)](https://david-dm.org/abircb/acquire-module)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
