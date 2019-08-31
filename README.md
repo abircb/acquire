@@ -12,7 +12,7 @@ Node.js' `require` function on steroids
 ## Installation
 
 ```cli
-$ npm install acquire-module -g
+$ npm install acquire-module
 ```
 
 ## Features

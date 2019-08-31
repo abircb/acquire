@@ -21,7 +21,7 @@
     "url": "https://github.com/abircb/acquire-module/issues"
   },
   "dependencies": {
-    "array-back": "^3.1.0"
+    "array-back": "^4.0.0"
   },
   "homepage": "https://github.com/abircb/acquire-module#readme",
   "devDependencies": {
