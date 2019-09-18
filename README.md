@@ -52,3 +52,7 @@ const acquire = require('acquire-module')
 
 ```
 
+* * *
+
+&copy; 2017-19 Lloyd Brookes \<75pound@gmail.com\>.  
+&copy; 2019 Abir Bhushan \<bhushan.abir@gmail.com\>.
