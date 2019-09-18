@@ -1,10 +1,13 @@
+// Copyright (c) 2017-19 Lloyd Brookes <75pound@gmail.com>
+// Copyright (c) 2019 Abir Bhushan <bhushan.abir@gmail.com>
+
+
 /**
  * Node.js' `require` function on steroids:
  * - Ability to search for a module in multiple directories
  * - Ability to search using both absolute and relative paths
  * - Ability to search using a prefix
  * @module acquire
- * © 2017-19 Lloyd Brookes <75pound@gmail.com>
  */
 
 function acquire (moduleName, options) {
