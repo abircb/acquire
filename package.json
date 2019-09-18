@@ -1,6 +1,6 @@
 {
   "name": "acquire-module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Node.js' require function on steroids",
   "repository": "https://github.com/abircb/acquire-module.git",
   "main": "index.js",
