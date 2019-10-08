@@ -22,7 +22,7 @@ $ npm install acquire-module
   <li>You can specify a module prefix as a search option</li>
 </ul>
 
-along with all the features of `require()`
+along with all the existing features of `require()`
 
 ## Usage
 
