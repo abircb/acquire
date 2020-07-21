@@ -1,6 +1,6 @@
 {
   "name": "acquire-module",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "author": "The Random DevTools Project",
   "description": "Node.js' require function on steroids",
   "contributors": [
