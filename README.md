@@ -1,11 +1,12 @@
 [![npm version](https://badge.fury.io/js/acquire-module.svg)](https://badge.fury.io/js/acquire-module)
 ![npm](https://img.shields.io/npm/dt/acquire-module)
-[![Build Status](https://travis-ci.org/abircb/acquire-module.svg?branch=master)](https://travis-ci.org/abircb/acquire-module)
+[![Build Status](https://travis-ci.org/abircb/acquire.svg?branch=master)](https://travis-ci.org/abircb/acquire)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![badgen.net](https://badgen.net/badge/libraries/io/blue)](https://libraries.io/github/abircb/acquire-module)
 ![license](https://img.shields.io/npm/l/acquire-module)
 
 # acquire-module
+
 Node.js' `require` function on steroids
 
 ## Installation
@@ -15,6 +16,7 @@ $ npm install acquire-module
 ```
 
 ## Features
+
 <ul>
   <li>Search for a module in multiple directories</li>
   <li>Search using both absolute and relative paths</li>
@@ -26,22 +28,23 @@ along with all the existing features of `require()`
 ## Usage
 
 ```js
-const acquire = require('acquire-module')
+const acquire = require("acquire-module");
 ```
 
 #### acquire (moduleName, [options])
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| moduleName | `<string>` | The name of the module (if present in `node_modules` or if paths are specified in `option.paths`). Can also simply include the module path to resolve. |
-| [options] | `<Object>`| Additional search options for `moduleName`.|
-| [options.paths] | `<string>` , `<Array>.string`| Paths to one or more directories to resolve module location from. For each path specified, both the path itself and `node_modules` will be searched.|
-| [options.prefix] | `<string>`| Prefix of the given `moduleName`.|
+| Parameter        | Type                          | Description                                                                                                                                            |
+| ---------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| moduleName       | `<string>`                    | The name of the module (if present in `node_modules` or if paths are specified in `option.paths`). Can also simply include the module path to resolve. |
+| [options]        | `<Object>`                    | Additional search options for `moduleName`.                                                                                                            |
+| [options.paths]  | `<string>` , `<Array>.string` | Paths to one or more directories to resolve module location from. For each path specified, both the path itself and `node_modules` will be searched.   |
+| [options.prefix] | `<string>`                    | Prefix of the given `moduleName`.                                                                                                                      |
 
 • returns a `module` Object
 
 ## Examples
-``` js
+
+```js
 > const inquirer = acquire('inquirer')
 > var _ = acquire('/core', { prefix: 'lodash' })
 > const myModule = acquire('some-file.js', { paths: '.' })
@@ -53,4 +56,4 @@ const acquire = require('acquire-module')
 
 &copy; 2019 Abir Bhushan \<bhushan.abir@gmail.com\>.
 
-&copy; 2017-19 Lloyd Brookes \<75pound@gmail.com\>.  
+&copy; 2017-19 Lloyd Brookes \<75pound@gmail.com\>.
